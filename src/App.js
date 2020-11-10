@@ -1,8 +1,11 @@
 import './App.css';
+import './homepage.styles.scss';
+import HomePage from './homepage.component';
 
 function App() {
   return (
-    <div>Hello World
+    <div>
+      <HomePage />
     </div>
   );
 }
